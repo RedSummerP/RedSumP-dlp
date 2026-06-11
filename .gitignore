@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 大文件 / 模型 / 数据
+*.pth
+*.pt
+*.bin
+*.onnx
+*.npy
+*.npz
+*.ckpt
+model_cache/
+
+# 临时文件
+temp/
+tmp/
+*.log
+
+# 凭证
+.env
+*.key
+*.pem
